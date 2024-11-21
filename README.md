@@ -1,0 +1,1 @@
+## Classificar imagens com LLM
