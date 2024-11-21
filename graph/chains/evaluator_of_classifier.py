@@ -12,7 +12,7 @@ class GradeTable(BaseModel):
     file: str = Field(description="File name")
     label: str = Field(description="Category or label assigned to the table")
     description: str = Field(description="Table description")
-    reclassified: bool = Field(description="the table is reclassified")
+    new_classified: bool = Field(description="Updated with a new classification, 'yes' or 'no'")
 
 
 structured_llm_evaluator = llm.with_structured_output(GradeTable)
@@ -22,17 +22,19 @@ system = (
     "Ignore the table's name and focus solely on its structural and content characteristics. Follow these steps:\n\n"
     "1. **Analysis**: Carefully compare the current image against the historical descriptions and classifications provided.\n"
     " * Focus on the following elements:"
-    "   - 1. **Headers**: List all the headers present and describe their roles or relevance."
-    "   - 2. **Number of Columns**: Count the columns and specify their purpose."
-    "   - 3.**Types of Information**: Describe the type of data in each column (e.g., text, numbers, dates, categories)."  
-    "   - 4. **General Format**: Describe detail appearance of the table, including alignment, borders, colors, or any visual styles that stand out."
+    "   - 1. **Headers:** Identify and list all column headers. Describe their layout, structure, and any distinctive formatting features (e.g., bold text, color, font style).\n"
+    "   - 2. **Column Count and Purpose:** Specify the total number of columns. For each column, describe its structural role or general categorization (e.g., primary data column, summary column, etc.).\n"
+    "   - 3. **Data Types:** Analyze the type of content expected in each column based on its design, such as text, numerical values, dates, or categories.\n"
+    "   - 4. **Visual Design:** Describe the table's overall visual characteristics, including alignment (e.g., left, center, or right), presence and style of borders, row or column highlights, color schemes, shading, gridlines, or other decorative elements.\n"
+    "   - 5. **Unique Features:** Note any distinctive elements such as merged cells, hierarchical headers, or icons.\n\n"
+    "If this table’s structure or design significantly deviates from previously analyzed tables, label it as a “new description.”\n\n"
     "2. **Decision**:\n"
     "   - If the image matches the historical data, retain the existing description, category, and label.\n"
     "   - If the image does not match, reclassify it. Provide a new, detailed description, assign a new category, "
     "and create a unique label that accurately captures all the table's characteristics.\n"
     "3. **Output**:\n"
-    "   - Indicate whether the image was reclassified with 'yes' or 'no'.\n"
-    "   - If reclassified ('yes'), include the updated description, category, and label.\n\n"
+    "   - Indicate whether the description or label has been updated with a new classification with 'yes' or 'no'.\n"
+    "   - If new classification ('yes'), include the updated description, category, and label.\n\n"
     "Ensure your classifications and labels are consistent and precise."
     "file: {file}."
 )

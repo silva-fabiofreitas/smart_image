@@ -39,7 +39,7 @@ def test_evaluate_classifier():
     print('---GRADER---')
 
     paths = [
-        Path('data/imgs/tabela1.bmp'), Path('data/imgs/tabela2 - Copia.bmp'), Path('data/imgs/tabela5 - Copia (2).bmp'),
+        Path('data/imgs/tabela3.bmp'), Path('data/imgs/tabela2 - Copia.bmp'), Path('data/imgs/tabela5 - Copia (2).bmp'),
         Path('data/imgs/tabela4 - Copia (2).bmp')
     ]
     for path in paths:

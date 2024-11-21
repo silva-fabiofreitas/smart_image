@@ -16,19 +16,17 @@ class TableDescription(BaseModel):
 
 structured_llm_description = llm.with_structured_output(TableDescription)
 
-system = prompt_text = """
-Analyze the provided image of a table and describe its structure with attention to detail. Focus on the following elements:
-
-1. **Headers**: List all the headers present and describe their roles or relevance.  
-2. **Number of Columns**: Count the columns and specify their purpose.  
-3. **Types of Information**: Describe the type of data in each column (e.g., text, numbers, dates, categories).  
-4. **General Format**: Describe detail appearance of the table, including alignment, borders, colors, or any visual styles that stand out.
-
-"Based on this detailed description, create a unique label for the table that accurately reflects all its characteristics. If the table's description differs from the previous descriptions, assign a new label.
-
-file: {file}
-"""
-
+system = (
+    "Analyze the provided image of a table, focusing exclusively on its structure and design. "
+    "Avoid considering its title or specific values. Provide a detailed description based on the following aspects:\n\n"
+    "1. **Headers:** Identify and list all column headers. Describe their layout, structure, and any distinctive formatting features (e.g., bold text, color, font style).\n"
+    "2. **Column Count and Purpose:** Specify the total number of columns. For each column, describe its structural role or general categorization (e.g., primary data column, summary column, etc.).\n"
+    "3. **Data Types:** Analyze the type of content expected in each column based on its design, such as text, numerical values, dates, or categories.\n"
+    "4. **Visual Design:** Describe the table's overall visual characteristics, including alignment (e.g., left, center, or right), presence and style of borders, row or column highlights, color schemes, shading, gridlines, or other decorative elements.\n"
+    "5. **Unique Features:** Note any distinctive elements such as merged cells, hierarchical headers, or icons.\n\n"
+    "If this table’s structure or design significantly deviates from previously analyzed tables, label it as a “new description.”\n\n"
+    "Input File: {file}"
+)
 
 prompt = ChatPromptTemplate.from_messages(
     [
