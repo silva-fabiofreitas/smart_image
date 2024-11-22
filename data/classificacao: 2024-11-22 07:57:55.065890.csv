@@ -1,0 +1,199 @@
+;file;label;description;new_classified
+0;tabela1 - Copia (2);Coverage Data Table;"The table presents data on coverage across different scenarios. 
+
+1. **Headers:** The column headers are 'Cenário', 'Cobertura (bairros)', and 'Cobertura (%)'. The headers are bold and centered, with a clear distinction from the data rows. 
+
+2. **Column Count and Purpose:** There are three columns in total. The first column ('Cenário') categorizes different scenarios. The second column ('Cobertura (bairros)') provides numerical data on the number of neighborhoods covered. The third column ('Cobertura (%)') presents the percentage of coverage. 
+
+3. **Data Types:** The first column contains text (scenario names), while the second and third columns contain numerical values (integer and percentage formats, respectively). 
+
+4. **Visual Design:** The table has a clean layout with borders around each cell. The text is left-aligned in the first column and right-aligned in the numerical columns. The header row is visually distinct, likely with a different background color or bold text. 
+
+5. **Unique Features:** There are no merged cells or hierarchical headers. The table maintains a straightforward structure without additional decorative elements.";False
+1;tabela4 - Copia (2);Vertical Format Coverage Table;"The table presents coverage data in a vertical format for different scenarios. 
+
+1. **Headers:** The column headers are 'Atributo', 'Atual', 'Não ponderado', 'Ponderado', 'Inverno', 'Outono', 'Primavera', and 'Verão'. The headers are bold and centered, providing a clear distinction from the data rows. 
+
+2. **Column Count and Purpose:** There are a total of 8 columns. The first column ('Atributo') categorizes the attributes being measured, while the subsequent columns represent different scenarios or conditions for coverage. 
+
+3. **Data Types:** The first column contains text (attribute names), while the remaining columns contain numerical values (integers and percentages). 
+
+4. **Visual Design:** The table has a structured layout with borders around each cell. The text is left-aligned in the first column and right-aligned in the numerical columns. The header row is visually distinct, likely with a different background color or bold text. 
+
+5. **Unique Features:** There are no merged cells or hierarchical headers. The table maintains a straightforward structure without additional decorative elements.";False
+2;tabela1 - Copia;Coverage Data Table;"The table presents data on coverage across different scenarios. 
+
+1. **Headers:** The column headers are 'Cenário', 'Cobertura (bairros)', and 'Cobertura (%)'. The headers are bold and centered, with a clear distinction from the data rows. 
+
+2. **Column Count and Purpose:** There are three columns in total. The first column ('Cenário') categorizes different scenarios. The second column ('Cobertura (bairros)') provides numerical data on the number of neighborhoods covered. The third column ('Cobertura (%)') presents the percentage of coverage. 
+
+3. **Data Types:** The first column contains text (scenario names), while the second and third columns contain numerical values (integer and percentage formats, respectively). 
+
+4. **Visual Design:** The table has a clean layout with borders around each cell. The text is left-aligned in the first column and right-aligned in the numerical columns. The header row is visually distinct, likely with a different background color or bold text. 
+
+5. **Unique Features:** There are no merged cells or hierarchical headers. The table maintains a straightforward structure without additional decorative elements.";False
+3;tabela3 - Copia;Coverage Comparison Table;"The table presents coverage data across various scenarios.
+
+1. **Headers:** The column headers are 'Cenário', 'Cobertura (bairros)', 'Cobertura (%)', and 'Diferença para o Atual (bairros)'. The headers are bold and centered, providing a clear distinction from the data rows.
+
+2. **Column Count and Purpose:** There are four columns in total. The first column ('Cenário') categorizes different scenarios. The second column ('Cobertura (bairros)') provides numerical data on the number of neighborhoods covered. The third column ('Cobertura (%)') presents the percentage of coverage, and the fourth column ('Diferença para o Atual (bairros)') indicates the difference in coverage compared to the current scenario.
+
+3. **Data Types:** The first column contains text (scenario names), while the second and fourth columns contain numerical values (integers), and the third column contains percentage values.
+
+4. **Visual Design:** The table has a structured layout with borders around each cell. The text is left-aligned in the first column and right-aligned in the numerical columns. The header row is visually distinct, likely with a different background color or bold text.
+
+5. **Unique Features:** There are no merged cells or hierarchical headers. The table maintains a straightforward structure without additional decorative elements.";False
+4;tabela4;Vertical Format Coverage Table;"The table presents coverage data in a vertical format for different scenarios. 
+
+1. **Headers:** The column headers are 'Atributo', 'Atual', 'Não ponderado', 'Ponderado', 'Inverno', 'Outono', 'Primavera', and 'Verão'. The headers are bold and centered, providing a clear distinction from the data rows. 
+
+2. **Column Count and Purpose:** There are a total of 8 columns. The first column ('Atributo') categorizes the attributes being measured, while the subsequent columns represent different scenarios or conditions for coverage. 
+
+3. **Data Types:** The first column contains text (attribute names), while the remaining columns contain numerical values (integers and percentages). 
+
+4. **Visual Design:** The table has a structured layout with borders around each cell. The text is left-aligned in the first column and right-aligned in the numerical columns. The header row is visually distinct, likely with a different background color or bold text. 
+
+5. **Unique Features:** There are no merged cells or hierarchical headers. The table maintains a straightforward structure without additional decorative elements.";False
+5;tabela1 1;Coverage Data Table;"The table presents coverage data across different scenarios. 
+
+1. **Headers:** The column headers are 'Cenário', 'Cobertura (bairros)', and 'Cobertura (%)'. The headers are bold and centered, with a clear distinction from the data rows. 
+
+2. **Column Count and Purpose:** There are three columns in total. The first column ('Cenário') categorizes different scenarios. The second column ('Cobertura (bairros)') provides numerical data on the number of neighborhoods covered. The third column ('Cobertura (%)') presents the percentage of coverage. 
+
+3. **Data Types:** The first column contains text (scenario names), while the second and third columns contain numerical values (integer and percentage formats, respectively). 
+
+4. **Visual Design:** The table has a clean layout with borders around each cell. The text is left-aligned in the first column and right-aligned in the numerical columns. The header row is visually distinct, likely with a different background color or bold text. 
+
+5. **Unique Features:** There are no merged cells or hierarchical headers. The table maintains a straightforward structure without additional decorative elements.";False
+6;tabela1;Coverage Data Table;"The table presents data on coverage across different scenarios. 
+
+1. **Headers:** The column headers are 'Cenário', 'Cobertura (bairros)', and 'Cobertura (%)'. The headers are bold and centered, with a clear distinction from the data rows. 
+
+2. **Column Count and Purpose:** There are three columns in total. The first column ('Cenário') categorizes different scenarios. The second column ('Cobertura (bairros)') provides numerical data on the number of neighborhoods covered. The third column ('Cobertura (%)') presents the percentage of coverage. 
+
+3. **Data Types:** The first column contains text (scenario names), while the second and third columns contain numerical values (integer and percentage formats, respectively). 
+
+4. **Visual Design:** The table has a clean layout with borders around each cell. The text is left-aligned in the first column and right-aligned in the numerical columns. The header row is visually distinct, likely with a different background color or bold text. 
+
+5. **Unique Features:** There are no merged cells or hierarchical headers. The table maintains a straightforward structure without additional decorative elements.";False
+7;tabela5 - Copia;Coverage Observations Table;"The table presents coverage data with observations across different scenarios. 
+
+1. **Headers:** The column headers are 'Cenário', 'Cobertura (bairros)', and 'Observação'. The headers are bold and left-aligned, providing a clear distinction from the data rows. 
+
+2. **Column Count and Purpose:** There are three columns in total. The first column ('Cenário') categorizes different scenarios. The second column ('Cobertura (bairros)') provides numerical data on the number of neighborhoods covered. The third column ('Observação') contains textual observations related to the coverage. 
+
+3. **Data Types:** The first column contains text (scenario names), the second column contains numerical values (integers), and the third column contains text (observational notes). 
+
+4. **Visual Design:** The table has a structured layout with borders around each cell. The text is left-aligned in all columns. The header row is visually distinct, likely with bold text. 
+
+5. **Unique Features:** There are no merged cells or hierarchical headers. The table maintains a straightforward structure without additional decorative elements.";False
+8;tabela4 - Copia;Vertical Format Coverage Table;"The table presents coverage data in a vertical format for different scenarios. 
+
+1. **Headers:** The column headers are 'Atributo', 'Atual', 'Não ponderado', 'Ponderado', 'Inverno', 'Outono', 'Primavera', and 'Verão'. The headers are bold and centered, providing a clear distinction from the data rows. 
+
+2. **Column Count and Purpose:** There are a total of 8 columns. The first column ('Atributo') categorizes the attributes being measured, while the subsequent columns represent different scenarios or conditions for coverage. 
+
+3. **Data Types:** The first column contains text (attribute names), while the remaining columns contain numerical values (integers and percentages). 
+
+4. **Visual Design:** The table has a structured layout with borders around each cell. The text is left-aligned in the first column and right-aligned in the numerical columns. The header row is visually distinct, likely with a different background color or bold text. 
+
+5. **Unique Features:** There are no merged cells or hierarchical headers. The table maintains a straightforward structure without additional decorative elements.";False
+9;tabela2 - Copia (2);Coverage Data Table;"The table presents coverage data across different scenarios. 
+
+1. **Headers:** The column headers are 'Cenário' and 'Cobertura (bairros e %)'. The headers are bold and centered, providing a clear distinction from the data rows. 
+
+2. **Column Count and Purpose:** There are two columns in total. The first column ('Cenário') categorizes different scenarios, while the second column ('Cobertura (bairros e %)') provides numerical data on the coverage in terms of neighborhoods and percentages. 
+
+3. **Data Types:** The first column contains text (scenario names), while the second column contains numerical values (integers and percentages). 
+
+4. **Visual Design:** The table has a structured layout with borders around each cell. The text is left-aligned in the first column and right-aligned in the numerical column. The header row is visually distinct, likely with bold text. 
+
+5. **Unique Features:** There are no merged cells or hierarchical headers. The table maintains a straightforward structure without additional decorative elements.";False
+10;tabela2 - Copia;Coverage Data Table;"The table presents coverage data across different scenarios.
+
+1. **Headers:** The column headers are 'Cenário' and 'Cobertura (bairros e %)'. The headers are bold and centered, providing a clear distinction from the data rows.
+
+2. **Column Count and Purpose:** There are two columns in total. The first column ('Cenário') categorizes different scenarios, while the second column ('Cobertura (bairros e %)') provides numerical data on the coverage in terms of neighborhoods and percentages.
+
+3. **Data Types:** The first column contains text (scenario names), while the second column contains numerical values (integers and percentages).
+
+4. **Visual Design:** The table has a structured layout with borders around each cell. The text is left-aligned in the first column and right-aligned in the numerical column. The header row is visually distinct, likely with bold text.
+
+5. **Unique Features:** There are no merged cells or hierarchical headers. The table maintains a straightforward structure without additional decorative elements.";True
+11;tabela3 1;Coverage Comparison Table;"The table presents coverage data across various scenarios.
+
+1. **Headers:** The column headers are 'Cenário', 'Cobertura (bairros)', 'Cobertura (%)', and 'Diferença para o Atual (bairros)'. The headers are bold and centered, providing a clear distinction from the data rows.
+
+2. **Column Count and Purpose:** There are four columns in total. The first column ('Cenário') categorizes different scenarios. The second column ('Cobertura (bairros)') provides numerical data on the number of neighborhoods covered. The third column ('Cobertura (%)') presents the percentage of coverage, and the fourth column ('Diferença para o Atual (bairros)') indicates the difference in coverage compared to the current scenario.
+
+3. **Data Types:** The first column contains text (scenario names), while the second and fourth columns contain numerical values (integers), and the third column contains percentage values.
+
+4. **Visual Design:** The table has a structured layout with borders around each cell. The text is left-aligned in the first column and right-aligned in the numerical columns. The header row is visually distinct, likely with a different background color or bold text.
+
+5. **Unique Features:** There are no merged cells or hierarchical headers. The table maintains a straightforward structure without additional decorative elements.";False
+12;tabela3 - Copia (2);Coverage Comparison Table;"The table presents coverage data across various scenarios.
+
+1. **Headers:** The column headers are 'Cenário', 'Cobertura (bairros)', 'Cobertura (%)', and 'Diferença para o Atual (bairros)'. The headers are bold and centered, providing a clear distinction from the data rows.
+
+2. **Column Count and Purpose:** There are four columns in total. The first column ('Cenário') categorizes different scenarios. The second column ('Cobertura (bairros)') provides numerical data on the number of neighborhoods covered. The third column ('Cobertura (%)') presents the percentage of coverage, and the fourth column ('Diferença para o Atual (bairros)') indicates the difference in coverage compared to the current scenario.
+
+3. **Data Types:** The first column contains text (scenario names), while the second and fourth columns contain numerical values (integers), and the third column contains percentage values.
+
+4. **Visual Design:** The table has a structured layout with borders around each cell. The text is left-aligned in the first column and right-aligned in the numerical columns. The header row is visually distinct, likely with a different background color or bold text.
+
+5. **Unique Features:** There are no merged cells or hierarchical headers. The table maintains a straightforward structure without additional decorative elements.";False
+13;tabela2;Compact Coverage Table;"The table presents coverage data in a compact format, combining values and percentages for different scenarios.
+
+1. **Headers:** The column headers are 'Cenário' and 'Cobertura (bairros e %)'. The headers are bold and centered, providing a clear distinction from the data rows.
+
+2. **Column Count and Purpose:** There are two columns in total. The first column ('Cenário') categorizes different scenarios, while the second column ('Cobertura (bairros e %)') provides numerical data on the coverage in terms of neighborhoods and percentages.
+
+3. **Data Types:** The first column contains text (scenario names), while the second column contains numerical values (integers and percentages).
+
+4. **Visual Design:** The table has a structured layout with borders around each cell. The text is left-aligned in the first column and right-aligned in the numerical column. The header row is visually distinct, likely with bold text.
+
+5. **Unique Features:** There are no merged cells or hierarchical headers. The table maintains a straightforward structure without additional decorative elements.";False
+14;tabela1 2;Coverage Data Table;"The table presents data on coverage across different scenarios. 
+
+1. **Headers:** The column headers are 'Cenário', 'Cobertura (bairros)', and 'Cobertura (%)'. The headers are bold and centered, with a clear distinction from the data rows. 
+
+2. **Column Count and Purpose:** There are three columns in total. The first column ('Cenário') categorizes different scenarios. The second column ('Cobertura (bairros)') provides numerical data on the number of neighborhoods covered. The third column ('Cobertura (%)') presents the percentage of coverage. 
+
+3. **Data Types:** The first column contains text (scenario names), while the second and third columns contain numerical values (integer and percentage formats, respectively). 
+
+4. **Visual Design:** The table has a clean layout with borders around each cell. The text is left-aligned in the first column and right-aligned in the numerical columns. The header row is visually distinct, likely with a different background color or bold text. 
+
+5. **Unique Features:** There are no merged cells or hierarchical headers. The table maintains a straightforward structure without additional decorative elements.";False
+15;tabela5;Coverage Observations Table;"The table presents coverage data with observations across different scenarios. 
+
+1. **Headers:** The column headers are 'Cenário', 'Cobertura (bairros)', and 'Observação'. The headers are bold and left-aligned, providing a clear distinction from the data rows. 
+
+2. **Column Count and Purpose:** There are three columns in total. The first column ('Cenário') categorizes different scenarios. The second column ('Cobertura (bairros)') provides numerical data on the number of neighborhoods covered. The third column ('Observação') contains textual observations related to the coverage. 
+
+3. **Data Types:** The first column contains text (scenario names), the second column contains numerical values (integers), and the third column contains text (observational notes). 
+
+4. **Visual Design:** The table has a structured layout with borders around each cell. The text is left-aligned in all columns. The header row is visually distinct, likely with bold text. 
+
+5. **Unique Features:** There are no merged cells or hierarchical headers. The table maintains a straightforward structure without additional decorative elements.";False
+16;tabela3;Coverage Comparison Table;"The table presents coverage data across various scenarios.
+
+1. **Headers:** The column headers are 'Cenário', 'Cobertura (bairros)', 'Cobertura (%)', and 'Diferença para o Atual (bairros)'. The headers are bold and centered, providing a clear distinction from the data rows.
+
+2. **Column Count and Purpose:** There are four columns in total. The first column ('Cenário') categorizes different scenarios. The second column ('Cobertura (bairros)') provides numerical data on the number of neighborhoods covered. The third column ('Cobertura (%)') presents the percentage of coverage, and the fourth column ('Diferença para o Atual (bairros)') indicates the difference in coverage compared to the current scenario.
+
+3. **Data Types:** The first column contains text (scenario names), while the second and fourth columns contain numerical values (integers), and the third column contains percentage values.
+
+4. **Visual Design:** The table has a structured layout with borders around each cell. The text is left-aligned in the first column and right-aligned in the numerical columns. The header row is visually distinct, likely with a different background color or bold text.
+
+5. **Unique Features:** There are no merged cells or hierarchical headers. The table maintains a straightforward structure without additional decorative elements.";False
+17;tabela5 - Copia (2);Coverage Observations Table;"The table presents coverage data with observations across different scenarios. 
+
+1. **Headers:** The column headers are 'Cenário', 'Cobertura (bairros)', and 'Observação'. The headers are bold and left-aligned, providing a clear distinction from the data rows. 
+
+2. **Column Count and Purpose:** There are three columns in total. The first column ('Cenário') categorizes different scenarios. The second column ('Cobertura (bairros)') provides numerical data on the number of neighborhoods covered. The third column ('Observação') contains textual observations related to the coverage. 
+
+3. **Data Types:** The first column contains text (scenario names), the second column contains numerical values (integers), and the third column contains text (observational notes). 
+
+4. **Visual Design:** The table has a structured layout with borders around each cell. The text is left-aligned in all columns. The header row is visually distinct, likely with bold text. 
+
+5. **Unique Features:** There are no merged cells or hierarchical headers. The table maintains a straightforward structure without additional decorative elements.";False
