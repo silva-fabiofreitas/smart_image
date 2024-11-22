@@ -24,7 +24,7 @@ system = (
     "3. **Data Types:** Analyze the type of content expected in each column based on its design, such as text, numerical values, dates, or categories.\n"
     "4. **Visual Design:** Describe the table's overall visual characteristics, including alignment (e.g., left, center, or right), presence and style of borders, row or column highlights, color schemes, shading, gridlines, or other decorative elements.\n"
     "5. **Unique Features:** Note any distinctive elements such as merged cells, hierarchical headers, or icons.\n\n"
-    "If this table’s structure or design significantly deviates from previously analyzed tables, label it as a “new description.”\n\n"
+    "If the structure or design of this table deviates significantly from previously analyzed tables, assign a new label and description.\n\n"
     "Input File: {file}"
 )
 

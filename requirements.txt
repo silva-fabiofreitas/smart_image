@@ -6,3 +6,4 @@ langgraph
 langchainhub
 langchain_experimental
 pytest
+pandas
