@@ -22,6 +22,9 @@ def classifier_table(state: GraphState) -> Dict[str, list[Any] | list[Path]]:
     image_path = state['image_path']
 
     path = Path(image_path)
+
+    if not path.exists():
+        raise FileNotFoundError('Arquivo não encontrado')
     images = list(path.glob('*.*'))
 
     classifications = []

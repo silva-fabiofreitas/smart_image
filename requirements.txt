@@ -9,3 +9,4 @@ pytest
 pandas
 streamlit
 plotly
+streamlit-plotly-events
