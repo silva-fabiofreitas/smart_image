@@ -13,6 +13,7 @@ st.set_page_config(
 
 
 # Função para exibir as imagens de uma categoria
+@st.cache_data
 def display_images_by_category(selection, df, image_dir):
     """
     Exibe imagens relacionadas a uma categoria selecionada.
@@ -42,7 +43,16 @@ def display_images_by_category(selection, df, image_dir):
 # Layout principal
 def main():
     st.title("Análise de Pareto")
-    st.write("Faça upload de um arquivo CSV para iniciar a análise.")
+
+
+    st.markdown("""
+        **Objetivo:** automatizar análise de pareto.
+        Etapas: 
+        - 1 Selecionar uma amostra aleatoria da população (relatórios) com uma confiabilidade de 95% 
+        e margem de erro de 5%.
+        - 2 Verificar os tipos de tabela e identificar os diferentes padrões **(IA)**
+        - 3 Gráfico de pareto  
+    """)
 
     # Upload de arquivo
     file = st.file_uploader("Carregar arquivo CSV", type="csv")
